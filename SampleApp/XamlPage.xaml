@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:SampleApp;assembly=SampleApp"
+             x:Class="SampleApp.XamlPage">
+  <ContentPage.BindingContext>
+    <viewmodel:SampleViewModel x:Name="SampleViewModelX"></viewmodel:SampleViewModel>
+  </ContentPage.BindingContext>
+  <StackLayout Orientation="Vertical">
+    <Label Text="{Binding MainText}" TextColor="{Binding LabelsColor}" HorizontalOptions="Fill"/>
+    <Slider x:Name="RedSlider" Minimum="0" Maximum="255" Value="{Binding Red, Mode=TwoWay}" HorizontalOptions="Fill"></Slider>
+    <Slider x:Name="GreenSlider" Minimum="0" Maximum="255" Value="{Binding Green, Mode=TwoWay}"  HorizontalOptions="Fill"></Slider>
+    <Slider x:Name="BlueSlider" Minimum="0" Maximum="255" Value="{Binding Blue, Mode=TwoWay}"  HorizontalOptions="Fill"></Slider>
+    
+    <ScrollView>
+      <ListView ItemsSource="{Binding TextosCollection}">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <TextCell Text="{Binding AsTexto}">
+              <TextCell.TextColor>
+                <Binding Source="{x:Reference BindingContextProperty}" Path="LabelsColor" Mode="TwoWay">
+                  
+                </Binding>
+              </TextCell.TextColor>
+            </TextCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </ScrollView>
+  </StackLayout>
+</ContentPage>

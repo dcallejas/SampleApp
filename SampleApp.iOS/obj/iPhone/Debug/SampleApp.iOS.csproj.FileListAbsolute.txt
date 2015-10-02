@@ -1,0 +1,13 @@
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\SampleAppiOS.exe
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\SampleAppiOS.pdb
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\SampleApp.dll
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\SampleApp.pdb
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.xml
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\obj\iPhone\Debug\optimized\
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\obj\iPhone\Debug\SampleApp.iOS.csprojResolveAssemblyReference.cache
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\obj\iPhone\Debug\SampleAppiOS.exe
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp.iOS\obj\iPhone\Debug\SampleAppiOS.pdb

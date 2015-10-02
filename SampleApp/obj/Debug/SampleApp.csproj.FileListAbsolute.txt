@@ -1,0 +1,11 @@
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\bin\Debug\SampleApp.dll
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\bin\Debug\SampleApp.pdb
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\bin\Debug\Xamarin.Forms.Core.dll
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\bin\Debug\Xamarin.Forms.Core.xml
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\obj\Debug\SampleApp.csprojResolveAssemblyReference.cache
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\obj\Debug\MainView.xaml.g.cs
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\obj\Debug\SampleApp.dll
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\obj\Debug\SampleApp.pdb
+D:\DCL\Projects\SampleApp\SampleApp\SampleApp\obj\Debug\XamlPage.xaml.g.cs
