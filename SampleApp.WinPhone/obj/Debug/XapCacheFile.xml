@@ -1,5 +1,5 @@
-﻿<xapCache source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="02/10/2015 14:55:30">
-  <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\obj\Debug\SampleApp.WinPhone.dll" archivePath="SampleApp.WinPhone.dll" lastWriteTime="02/10/2015 14:55:29" />
+﻿<xapCache source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="02/10/2015 17:41:46">
+  <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\obj\Debug\SampleApp.WinPhone.dll" archivePath="SampleApp.WinPhone.dll" lastWriteTime="02/10/2015 17:41:45" />
   <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="02/10/2015 10:12:07" />
   <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="02/10/2015 10:11:57" />
   <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="02/10/2015 10:11:56" />
@@ -16,7 +16,7 @@
   <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="02/10/2015 10:11:56" />
   <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp.WinPhone\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="02/10/2015 10:11:56" />
   <file source="D:\DCL\Projects\SampleApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="02/10/2015 10:12:07" />
-  <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp\bin\Debug\SampleApp.dll" archivePath="SampleApp.dll" lastWriteTime="02/10/2015 14:55:28" />
+  <file source="D:\DCL\Projects\SampleApp\SampleApp\SampleApp\bin\Debug\SampleApp.dll" archivePath="SampleApp.dll" lastWriteTime="02/10/2015 17:41:43" />
   <file source="D:\DCL\Projects\SampleApp\packages\Xamarin.Forms.1.3.3.6323\lib\WP80\Xamarin.Forms.Core.dll" archivePath="Xamarin.Forms.Core.dll" lastWriteTime="02/10/2015 10:11:32" />
   <file source="D:\DCL\Projects\SampleApp\packages\Xamarin.Forms.1.3.3.6323\lib\WP80\Xamarin.Forms.Platform.WP8.dll" archivePath="Xamarin.Forms.Platform.WP8.dll" lastWriteTime="02/10/2015 10:11:32" />
   <file source="D:\DCL\Projects\SampleApp\packages\Xamarin.Forms.1.3.3.6323\lib\WP80\Xamarin.Forms.Xaml.dll" archivePath="Xamarin.Forms.Xaml.dll" lastWriteTime="02/10/2015 10:11:32" />

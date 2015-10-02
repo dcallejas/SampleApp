@@ -18,6 +18,8 @@ namespace SampleApp {
         
         private global::SampleApp.SampleViewModel SampleViewModelX;
         
+        private Label LabelMain;
+        
         private Slider RedSlider;
         
         private Slider GreenSlider;
@@ -27,6 +29,7 @@ namespace SampleApp {
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(XamlPage));
             SampleViewModelX = this.FindByName<global::SampleApp.SampleViewModel>("SampleViewModelX");
+            LabelMain = this.FindByName<Label>("LabelMain");
             RedSlider = this.FindByName<Slider>("RedSlider");
             GreenSlider = this.FindByName<Slider>("GreenSlider");
             BlueSlider = this.FindByName<Slider>("BlueSlider");

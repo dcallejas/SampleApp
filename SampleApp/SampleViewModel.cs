@@ -44,9 +44,11 @@ namespace SampleApp
         public SampleViewModel ()
         {
             MainText = "Añadir objetos y dependencia";
+            Red = 0;
+            Green = 0;
             Blue = 255;
             TextosCollection = new ObservableCollection<Posicion>();
-            TextosCollection.Add(new Posicion() { AsTexto = DateTime.Now.ToString("T") + " @ " + DependencyService.Get<IGPS>().GetPosition() });
+            TextosCollection.Add(new Posicion() { AsTexto = DateTime.Now.ToString("T") + " @ " + DependencyService.Get<IGPS>().GetPosition(), ColorTexto = LabelsColor });
             AddPosition();
         }
 
@@ -54,8 +56,8 @@ namespace SampleApp
         {
             while (true)
             {
-                TextosCollection.Add(new Posicion() { AsTexto = DateTime.Now.ToString("T") + " @ " + DependencyService.Get<IGPS>().GetPosition()});
-                await Task.Delay(50000);
+                TextosCollection.Add(new Posicion() { AsTexto = DateTime.Now.ToString("T") + " @ " + DependencyService.Get<IGPS>().GetPosition(),ColorTexto = LabelsColor});
+                await Task.Delay(5000);
             }
         }
 
@@ -69,8 +71,17 @@ namespace SampleApp
         }
     }
 
-    public class Posicion
+    public class Posicion:INotifyPropertyChanged
     {
         public string AsTexto { get; set; }
+        public Color ColorTexto { get; set; }
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            var handler = PropertyChanged;
+            if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

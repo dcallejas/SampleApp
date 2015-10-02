@@ -6,23 +6,20 @@
   <ContentPage.BindingContext>
     <viewmodel:SampleViewModel x:Name="SampleViewModelX"></viewmodel:SampleViewModel>
   </ContentPage.BindingContext>
-  <StackLayout Orientation="Vertical">
-    <Label Text="{Binding MainText}" TextColor="{Binding LabelsColor}" HorizontalOptions="Fill"/>
-    <Slider x:Name="RedSlider" Minimum="0" Maximum="255" Value="{Binding Red, Mode=TwoWay}" HorizontalOptions="Fill"></Slider>
-    <Slider x:Name="GreenSlider" Minimum="0" Maximum="255" Value="{Binding Green, Mode=TwoWay}"  HorizontalOptions="Fill"></Slider>
-    <Slider x:Name="BlueSlider" Minimum="0" Maximum="255" Value="{Binding Blue, Mode=TwoWay}"  HorizontalOptions="Fill"></Slider>
+  <StackLayout Orientation="Vertical" Padding="0,0,0,0">
+    <Label Text="{Binding MainText}" TextColor="{Binding LabelsColor}" x:Name="LabelMain" HorizontalOptions="Fill" VerticalOptions="Start"/>
+    <Label Text="Red:" FontSize="Small" VerticalOptions="Start"></Label>
+    <Slider x:Name="RedSlider" Minimum="0" Maximum="255" Value="{Binding Red, Mode=TwoWay}" BackgroundColor="Gray" HorizontalOptions="Fill" HeightRequest="80" VerticalOptions="Start"></Slider>
+    <Label Text="Green:" FontSize="Small" VerticalOptions="Start"></Label>
+    <Slider x:Name="GreenSlider" Minimum="0" Maximum="255" Value="{Binding Green, Mode=TwoWay}" BackgroundColor="Gray"  HorizontalOptions="Fill" HeightRequest="80" VerticalOptions="Start"></Slider>
+    <Label Text="Blue:" FontSize="Small" VerticalOptions="Start"></Label>
+    <Slider x:Name="BlueSlider" Minimum="0" Maximum="255" Value="{Binding Blue, Mode=TwoWay}" BackgroundColor="Gray"  HorizontalOptions="Fill" HeightRequest="80" VerticalOptions="Start"></Slider>
     
-    <ScrollView>
+    <ScrollView Padding="0,0,0,0">
       <ListView ItemsSource="{Binding TextosCollection}">
         <ListView.ItemTemplate>
           <DataTemplate>
-            <TextCell Text="{Binding AsTexto}">
-              <TextCell.TextColor>
-                <Binding Source="{x:Reference BindingContextProperty}" Path="LabelsColor" Mode="TwoWay">
-                  
-                </Binding>
-              </TextCell.TextColor>
-            </TextCell>
+            <TextCell Text="{Binding AsTexto}" TextColor="{Binding ColorTexto}"/>
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
