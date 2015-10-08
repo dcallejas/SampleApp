@@ -12,7 +12,7 @@ namespace SampleApp
         public App()
         {
             // The root page of your application
-            MainPage = new XamlPage();//new MainView();
+            MainPage = new MainView();
         }
 
         protected override void OnStart()

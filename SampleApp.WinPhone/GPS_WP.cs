@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Threading.Tasks;
 using Windows.Devices.Geolocation;
-using SampleApp;
 using SampleApp.WinPhone;
 
 [assembly: Xamarin.Forms.Dependency(typeof(GPSforWP))]
@@ -22,7 +20,7 @@ namespace SampleApp.WinPhone
             Geoposition position = null;
             var continuation = positionTask.ContinueWith(t => { position = t.Result; });
             continuation.Wait();
-            return position.Coordinate.Longitude.ToString("0.000") + " - " +
+            return position.Coordinate.Longitude.ToString("0.000") + " / " +
                                   position.Coordinate.Latitude.ToString("0.000");
         }
     }
